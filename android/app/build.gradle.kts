@@ -14,12 +14,12 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.sixamtech.efood_table"
+    namespace = "com.table.mumafoods"
     compileSdk = flutter.compileSdkVersion
 
     defaultConfig {
         multiDexEnabled = true
-        applicationId = "com.sixamtech.efood_table"
+        applicationId = "com.table.mumafoods"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
@@ -48,7 +48,7 @@ android {
 
     buildTypes {
         getByName("release") {
-            signingConfig = signingConfigs.getByName("debug") // or "release" if you have real keystore
+            signingConfig = signingConfigs.getByName("release") // or "release" if you have real keystore
         }
     }
 }

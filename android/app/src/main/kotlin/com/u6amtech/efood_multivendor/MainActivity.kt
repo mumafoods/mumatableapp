@@ -1,4 +1,4 @@
-package com.sixamtech.efood_table
+package com.table.mumafoods
 
 import io.flutter.embedding.android.FlutterActivity
 
