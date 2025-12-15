@@ -2,12 +2,12 @@ import 'package:efood_table_booking/common/models/language_model.dart';
 import 'package:efood_table_booking/util/images.dart';
 
 class AppConstants {
-  static const String appName = 'eFood Table';
+  static const String appName = 'MUMA Dinein';
   static const String appVersion = '2.2'; /// Flutter SDK 3.35.7
   static const String fontFamily = 'Roboto';
 
   // demo
-  static const String baseUrl = 'YOUR_BASE_URL_HERE'; // Replace with your actual base URL
+  static const String baseUrl = 'https://admin.mumafoods.in'; // Replace with your actual base URL
   static const String configUri = '/api/v1/config/table';
   static const String categoryUri = '/api/v1/categories';
   static const String productUri = '/api/v1/products/latest';
@@ -36,6 +36,6 @@ class AppConstants {
   static List<LanguageModel> languages = [
     LanguageModel(imageUrl: Images.unitedKingdom, languageName: 'English', countryCode: 'US', languageCode: 'en'),
     LanguageModel(imageUrl: Images.unitedKingdom, languageName: 'Bengali', countryCode: 'BD', languageCode: 'bn'),
-    LanguageModel(imageUrl: Images.saudi, languageName: 'Arabic', countryCode: 'SA', languageCode: 'ar'),
+    // LanguageModel(imageUrl: Images.saudi, languageName: 'Arabic', countryCode: 'SA', languageCode: 'ar'),
   ];
 }
